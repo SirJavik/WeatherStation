@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>WeatherStation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="../css/weatherstation.css" rel="stylesheet">
+    </head>
+    <body class="ws-page">
+        <div class="clock">
+            <div id="Date"></div>
+            <ul>
+                <li id="hours"></li>
+                <li id="point">:</li>
+                <li id="min"></li>
+                <li id="point">:</li>
+                <li id="sec"></li>
+            </ul>
+
+            <div class="location">Nordhausen</div>
+            <ul class="localinfo">
+                <li class="temperature_indoor">28 °C</li>
+                <li class="slash">/</li>
+                <li class="humidity_indoor">29 %</li>
+            </ul>
+            <div class="barometer">1000 hPa</div>
+            
+        </div>
+        
+        <script src="../js/jquery/jquery.min.js"></script>
+        <script src="../js/weatherstation.js"></script>
+    </body>
+</html>
